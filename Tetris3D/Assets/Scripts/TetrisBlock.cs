@@ -46,18 +46,21 @@ public class TetrisBlock : MonoBehaviour
 		
 		//MOVEMENT
 		if (Input.GetKeyDown(KeyCode.LeftArrow)){
-			// SetInput(Vector3.left);
+			SetInput(Vector3.left);
 		}
 		if (Input.GetKeyDown(KeyCode.RightArrow)){
 			SetInput(Vector3.right);
 		}
 		if (Input.GetKeyDown(KeyCode.UpArrow)){
-			//SetInput(Vector3.forward);
-			SetRotationalInput(new Vector3(90, 0, 0));
+			SetInput(Vector3.forward);
+			// SetRotationalInput(new Vector3(90, 0, 0));
 		}
 		if (Input.GetKeyDown(KeyCode.DownArrow)){
-			// SetInput(Vector3.back);
-			SetRotationalInput(new Vector3(-90, 0, 0));
+			SetInput(Vector3.back);
+			// SetRotationalInput(new Vector3(-90, 0, 0));
+		}
+		if (Input.GetKeyDown(KeyCode.Space)){
+			SetHighSpeed();
 		}
 
 
