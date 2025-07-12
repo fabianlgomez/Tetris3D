@@ -1,3 +1,2 @@
 # Tetris3D
-Unity Tetris 3D based on the OCTOMAN udemy course 
-Made for the Visual Computing UNAL 2024-1 Course
+A 3D reimagination of the classic Tetris game, developed in Unity as part of the Visual Computing course at UNAL (2024-1). This project builds upon the foundational concepts taught in the OCTOMAN Udemy course, extending them with personalized touches in visual design and gameplay logic. The goal was not only to recreate a functional 3D Tetris, but also to explore spatial reasoning, 3D rendering, and user interaction in a dynamic environment.
